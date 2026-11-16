@@ -1125,9 +1125,9 @@ document.addEventListener('keydown', (e) => {
     // Screenshot of the paywall with the Store prices (USD).
     Store.owned = new Set(); Store.available = true;
     Store.details = [
-      { itemId: PRODUCTS.yearly, price: { currency: 'USD', value: '49.99' } },
-      { itemId: PRODUCTS.monthly, price: { currency: 'USD', value: '9.99' } },
-      { itemId: PRODUCTS.lifetime, price: { currency: 'USD', value: '99.99' } }
+      { itemId: PRODUCTS.yearly, price: { currency: 'USD', value: '14.99' } },
+      { itemId: PRODUCTS.monthly, price: { currency: 'USD', value: '4.99' } },
+      { itemId: PRODUCTS.lifetime, price: { currency: 'USD', value: '24.99' } }
     ];
   }
   if (DEMO && PARAMS.get('screen')) {
