@@ -11,7 +11,7 @@ const BILLING = 'https://store.microsoft.com/billing';
 const PRODUCTS = { monthly: 'pts_monthly', yearly: 'pts_yearly', lifetime: 'pts_lifetime' };
 const PRODUCT_ORDER = [PRODUCTS.yearly, PRODUCTS.monthly, PRODUCTS.lifetime];
 // Microsoft Store ID (Partner Center > Product identity). Empty until the name is reserved.
-const STORE_ID = '';
+const STORE_ID = '9PGDRRWBJPQH';
 const LINKS = {
   base: 'https://joykhansayan1.github.io/rail-track-safety-prep-windows',
   get privacy() { return this.base + '/privacy.html'; },
