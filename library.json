@@ -1,0 +1,929 @@
+{
+ "version": 1,
+ "sections": [
+  {
+   "id": "lessons",
+   "title": "PTS Lessons",
+   "icon": "book",
+   "summary": "15 lessons covering every PTS topic, from railway basics to safe positions, lookouts, electrification, emergencies and Sentinel.",
+   "topics": [
+    {
+     "id": "basics",
+     "title": "Know the railway",
+     "reference": "Railway Basics & Terminology",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "The words used in briefings, track layouts and emergency calls. If you know them, you will understand where trains can go and where you can stand."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "The four-foot is the space between the two rails of one track. The six-foot is between two adjacent tracks. The ten-foot is the wider space between pairs of tracks. The cess is beside the line, beyond the outermost rail.",
+        "'On or near the line' means on the line or within 3 metres (10 feet) of it.",
+        "Trains can approach on any line, at any time, in either direction. Bi-directional and reversible lines are signalled both ways.",
+        "The Up direction is usually towards London or the main centre on a route; check the sectional appendix for local exceptions.",
+        "Your location is given by the ELR (Engineer's Line Reference) and mileage. There are 80 chains in a mile; a chain is 22 yards.",
+        "Points (switches and crossings) can move at any time without warning. Never put your feet between a switch blade and the stock rail.",
+        "Track circuits and axle counters detect trains. Never lay metal across both running rails.",
+        "Modern trains can be very quiet, and a train at speed may need well over a kilometre to stop."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Being able to name the lines and give your exact location can save a life in an emergency."
+      }
+     ]
+    },
+    {
+     "id": "access",
+     "title": "Getting to and from site",
+     "reference": "Safe Access & Egress",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Most of the time you spend near the line is walking to and from work. Use only authorised access points and planned routes."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Enter and leave only by authorised access points named in your briefing. Lock gates behind you where required.",
+        "You need a reason to be there, the right competence and a safe system of work. Holding PTS alone is not permission.",
+        "Walk in the cess or a designated walking route, facing trains on the nearest line where possible. Avoid the four-foot and six-foot.",
+        "Cross only when authorised, at right angles, after looking both ways, stepping over rails and equipment rather than on them.",
+        "Never cross in front of a stopped train, and never climb under, between or over vehicles.",
+        "Carry long items horizontally and low, especially under overhead line equipment.",
+        "Check access signs match your briefing. Poor signage has led groups onto the wrong lines (South Hampstead, 2018).",
+        "Tell the COSS when you leave the line, and leave before protection is given up."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "No safe system of work, no access."
+      }
+     ]
+    },
+    {
+     "id": "pos",
+     "title": "Positions of safety",
+     "reference": "Safe Positions & Position of Safety",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A position of safety keeps you clear of passing trains and the air turbulence they create. You must know where it is before you start work."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Line speed up to 100 mph: at least 1.25 m (4 ft) from the nearest rail on which a train may approach.",
+        "Line speed over 100 mph and up to 125 mph: at least 2 m (6 ft 6 in) from the nearest rail.",
+        "Be in your position of safety at least 10 seconds before the train arrives.",
+        "It must be stable, firm and easy to reach, not a sloping edge, troughing lid or narrow ledge.",
+        "Face the train, keep clothing fastened, and secure loose items that slipstream could draw in.",
+        "Acknowledge a driver's horn by raising one arm above your head once you are clear.",
+        "Stay put after a train passes until you are told it is safe. A second train may be hidden by the first.",
+        "Limited clearance means there is no position of safety. Do not be there when trains run unless the line is protected."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Distance plus time: the right distance, reached at least 10 seconds early."
+      }
+     ]
+    },
+    {
+     "id": "lookout",
+     "title": "Warnings and lookouts",
+     "reference": "Lookout & Warning Systems",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Warning systems tell you a train is coming so you can get clear. They do not stop trains. Lookout working is now the last resort on Network Rail."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Minimum warning time = time to stop work, clear equipment and walk to safety, plus 10 seconds.",
+        "Sighting distance needed = train speed × warning time. 1 mph ≈ 0.447 m/s, so 100 mph ≈ 44.7 m/s.",
+        "Example: 100 mph with 25 s warning needs about 1,118 m of sighting.",
+        "ATWS detects trains automatically. TOWS is fixed lineside equipment triggered by trains. LOWS uses a lookout to trigger site warnings.",
+        "A lookout must be competent, fit, briefed, in a position of safety, and do no other work. No phones and no radios for train warnings.",
+        "If sighting reduces (fog, darkness, glare, curves), the lookout warns the group to stop and tells the COSS.",
+        "From December 2025, Network Rail restricted lookout working to situations where no safer option exists. Relay (distant and intermediate) lookouts are banned.",
+        "Respond to every warning at once. Never ignore a warning you think is a false alarm."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Warnings rely on people reacting in time; protection does not."
+      }
+     ]
+    },
+    {
+     "id": "ssow",
+     "title": "Safe systems of work",
+     "reference": "Safe Systems of Work & Site Roles",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A safe system of work is the planned way a group is protected from trains. Planners use the hierarchy and pick the safest practicable option."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Hierarchy, safest first: safeguarded (lines blocked), fenced, separated (2 m gap with a site warden), automatic warning, lookout warning.",
+        "A line blockage means the signaller keeps protecting signals at danger and lets no trains in. A possession is a longer closure for engineering work.",
+        "The PICOP manages the possession; the Engineering Supervisor (ES) manages each worksite; the COSS (or person in charge) protects the group.",
+        "Engineering trains and on-track plant can still move inside a possession.",
+        "The COSS must brief you on site, check competences and stay with the group. Do not sign a briefing you do not understand.",
+        "If the planned protection is refused or unavailable, the work must not go ahead using a less safe improvised method (lesson from Margam, 2019).",
+        "Anyone can stop unsafe work. Network Rail's Worksafe procedure protects your right to refuse.",
+        "Report hazards and near misses through Close Call, or confidentially through CIRAS."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Separating people from trains is the most effective control."
+      }
+     ]
+    },
+    {
+     "id": "ole",
+     "title": "Overhead line equipment",
+     "reference": "Electrified Lines OLE",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Most GB mainline electrification is 25,000 volts AC. It can arc across a gap, so distance is your protection."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Treat OLE as live at all times unless you are told it is isolated and earthed.",
+        "Keep yourself and anything you carry at least 2.75 m (9 ft) from live OLE.",
+        "Never climb on vehicles, wagons, masts or structures under OLE unless authorised.",
+        "Carry long items horizontally and low. Never use water jets, kites, drones or ropes near the wires.",
+        "Fallen or damaged wires may be live, and so may anything they touch, including rails, fences and the ground.",
+        "Isolations are arranged by authorised people under permit arrangements; earths protect against re-energising and induced voltage.",
+        "If someone is in contact with OLE, do not touch them. Get the power switched off through the signaller or electrical control.",
+        "Report OLE damage with the exact location."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Keep away, keep low, treat as live."
+      }
+     ]
+    },
+    {
+     "id": "dc",
+     "title": "Third rail (DC)",
+     "reference": "Electrified Lines Third Rail",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Much of southern England uses a conductor rail at up to 750 V DC. It is at ground level, where feet and tools can easily touch it."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Treat the conductor rail as live at all times unless an isolation has been confirmed.",
+        "Never touch or step on the conductor rail or its guard boards. Never step between the conductor rail and the running rail.",
+        "Gaps and ramp ends do not make the rail safe; trains' shoe gear can bridge gaps and is live.",
+        "Keep metal tools, tape measures, ladders and liquids away from the conductor rail; bridging it to a running rail causes a violent flash.",
+        "Take extra care in darkness, snow and flooding, which hide or energise the rail.",
+        "Isolations use conductor rail permits; short-circuiting devices protect isolated rail.",
+        "Do not touch a casualty near the conductor rail until isolation is confirmed.",
+        "Your PTS must include the DCCR module to work on DC lines."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Never touch it, never step on it, always treat it as live."
+      }
+     ]
+    },
+    {
+     "id": "emerg",
+     "title": "Emergencies",
+     "reference": "Emergency Arrangements",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "In an emergency, stop trains first through the signaller, keep yourself safe, then get help."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Report obstructions, broken rails, landslips and fires to the signaller at once, using a signal post telephone if nearby.",
+        "Give your name, role, exact location (ELR, mileage, line name, signal number) and what has happened. Repeat key details back.",
+        "Call 999 (or 112) for emergency services, and tell the signaller so the railway can respond.",
+        "To stop a train in an emergency: show a red flag or red light, or any light waved violently, or raise both arms above your head, from a position of safety.",
+        "Emergency protection with detonators is only done by trained people: three detonators 20 m apart, normally about 2 km from the obstruction, plus track circuit operating clips.",
+        "Never put yourself in danger to help. Check for electrical hazards before touching a casualty.",
+        "Report every accident and near miss. RAIB investigates to learn lessons, not to blame."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Stop the trains, stay safe, raise the alarm."
+      }
+     ]
+    },
+    {
+     "id": "ppe",
+     "title": "PPE and equipment",
+     "reference": "PPE & Personal Equipment",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "PPE is the last line of defence. It helps you be seen and protects against some hazards, but it cannot protect you from a train."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Railway high-visibility clothing is orange to RIS-3279-TOM (previously GO/RT3279). Yellow is not used on track.",
+        "Keep hi-vis clean, fastened and uncovered. Network Rail requires orange clothing that covers arms and legs for most work.",
+        "Safety boots need toe protection and ankle support. Wear helmets, eye protection, gloves and hearing protection as the task requires.",
+        "Hearing protection must never stop you hearing warnings; noisy work needs suitable warning arrangements.",
+        "No personal headphones on or near the line.",
+        "Your sponsor provides PPE; you must wear it and look after it. Replace damaged or faded items.",
+        "Check tools before use, keep guards fitted, and account for every tool at the end of work."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Being seen does not mean the train can stop."
+      }
+     ]
+    },
+    {
+     "id": "da",
+     "title": "Fitness for duty",
+     "reference": "Drugs, Alcohol & Fitness for Duty",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Track work is safety-critical. Alcohol, drugs, some medicines, fatigue and illness all reduce your ability to react."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Network Rail's alcohol limit is 29 mg per 100 ml of blood (13 µg per 100 ml of breath), far lower than the 80 mg drink-drive limit in England and Wales.",
+        "Testing includes pre-appointment, random, for-cause and post-incident. Refusing a test is treated as a positive result.",
+        "Under Network Rail's updated policy, a positive test can mean losing PTS and your Sentinel card for five years.",
+        "Only time removes alcohol. Coffee, food and sleep do not speed it up.",
+        "Declare medicines that may cause drowsiness and get advice before working.",
+        "Sentinel rules: do not report for duty within 12 hours of a previous shift on the infrastructure unless risk-assessed and controlled.",
+        "Network Rail's fatigue standard uses trigger conditions; for example, over 60 hours in 7 rolling days needs a fatigue plan, and controls include no lookout duties.",
+        "If you are too tired or unwell to work safely, say so and stay off the line."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Fit for duty means fit on the day, not just on paper."
+      }
+     ]
+    },
+    {
+     "id": "sentinel",
+     "title": "Sentinel and competence",
+     "reference": "Sentinel Scheme Responsibilities",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Sentinel records the identity and competences of people working on Network Rail managed infrastructure."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Carry your Sentinel card whenever you are on Network Rail managed infrastructure, and show it when asked.",
+        "Never lend your card or use anyone else's. Report a lost or damaged card to your sponsor straight away.",
+        "Your Primary Sponsor is responsible for you, including your competence, medical, drugs and alcohol status, PPE and working hours.",
+        "PTS is valid for two years. Recertify within 56 days of expiry or you must take the initial course again.",
+        "Only carry out roles you hold valid competence for. A suspended or expired competence must not be used.",
+        "Report anything that affects your ability to work safely, including medication and personal circumstances.",
+        "Track visitors without PTS must be escorted under an approved visitor arrangement."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Your card proves who you are and what you are competent to do."
+      }
+     ]
+    },
+    {
+     "id": "comms",
+     "title": "Communication and signals",
+     "reference": "Signals & Safety-Critical Communication",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Clear, confirmed communication stops misunderstandings that put people in front of trains."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Start every safety-critical call with your name, role and exact location.",
+        "Repeat back key details and close the loop. Do not just say 'OK'.",
+        "Use the phonetic alphabet for letters (Alpha, Bravo, Charlie...) and say numbers digit by digit when they could be confused.",
+        "Use proper line names such as 'Up Fast', not 'left' or 'right'.",
+        "Signals control trains, not your protection. Red = stop; single yellow = be prepared to stop at the next signal; double yellow = preliminary caution; green = proceed.",
+        "Hand-held radios and phones must not be used to give train warnings.",
+        "Raise one arm above your head to acknowledge a driver's horn."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "If you did not hear it clearly, you did not hear it."
+      }
+     ]
+    },
+    {
+     "id": "hazard",
+     "title": "Thinking through hazards",
+     "reference": "Hazard & Safe-Position Scenarios",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Real sites throw up situations the briefing did not mention. Stop, think and get clear first."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "If you see or hear a train, get clear. Do not wait for a warning.",
+        "Never cross in front of an approaching train to reach a position of safety; use one on your side.",
+        "Watch for things that reduce sighting or hearing: curves, cuttings, fog, glare, wind, darkness, noise and PPE.",
+        "Junctions, crossovers and diversions mean trains can appear on unexpected lines.",
+        "Plant and engineering trains can move inside possessions and have blind spots.",
+        "If site conditions differ from the plan, stop and tell the COSS before carrying on.",
+        "Challenge informal shortcuts such as 'we always do it this way'. They have killed people."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "If in doubt, get out."
+      }
+     ]
+    },
+    {
+     "id": "incidents",
+     "title": "Learning from RAIB",
+     "reference": "Lessons from Real Incidents",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "The Rail Accident Investigation Branch (RAIB) investigates to find causes and prevent repeats. Its findings explain why the rules exist."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Since 2005, RAIB has investigated about 67 events involving track workers and moving trains; 10 caused deaths.",
+        "By the end of 2023, over 99% of Network Rail work activities were done on lines closed to traffic.",
+        "Unassisted lookout working had fallen to about 1% of activities in 2023, and was linked to many accidents.",
+        "Common causes: informal unsafe practices, weak supervision, poor information and signage, time pressure and reluctance to challenge.",
+        "Managers need to see what happens on site, not just check paperwork."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Every rule in your PTS course was learned the hard way."
+      }
+     ]
+    },
+    {
+     "id": "site",
+     "title": "Site safety and Lifesaving Rules",
+     "reference": "General Site Safety & Lifesaving Rules",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Network Rail's ten Lifesaving Rules target the activities that cause most deaths and life-changing injuries."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Risk areas include contact with trains, working with electricity, working at height, moving equipment, driving and personal responsibility.",
+        "Electricity: never assume equipment is isolated; it must be proven dead before you touch it.",
+        "Driving: always wear a seat belt, never speed, never use a phone (even hands-free), never drive under the influence.",
+        "Work at height needs planned fall protection. Stay out of exclusion zones around plant and never stand under a raised load.",
+        "Fair Culture aims to understand why rules were broken and respond fairly, so people report honestly.",
+        "Use the hierarchy of control: eliminate, engineer, administer, then PPE.",
+        "Intervene when you see unsafe behaviour; anyone can stop the job."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Home safe every day."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reference",
+   "title": "Key Numbers & Glossary",
+   "icon": "list",
+   "summary": "The distances, speeds and terms you must know.",
+   "topics": [
+    {
+     "id": "keynumbers",
+     "title": "Key numbers",
+     "reference": "Quick reference",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Value",
+        "What it means",
+        "Detail"
+       ],
+       "rows": [
+        [
+         "1.25 m",
+         "Position of safety up to 100 mph",
+         "About 4 ft from the nearest rail on which a train may approach."
+        ],
+        [
+         "2 m",
+         "Position of safety over 100 mph",
+         "About 6 ft 6 in, for line speeds above 100 mph and up to 125 mph."
+        ],
+        [
+         "10 s",
+         "Safety margin",
+         "Be in your position of safety at least 10 seconds before the train arrives."
+        ],
+        [
+         "3 m",
+         "'On or near the line'",
+         "On the line, or within 3 m (10 ft) of it."
+        ],
+        [
+         "2 m",
+         "Separated working gap",
+         "Minimum gap from the open line, controlled by a site warden."
+        ],
+        [
+         "2.75 m",
+         "OLE safe distance",
+         "Keep yourself and anything you carry at least 2.75 m (9 ft) from live OLE."
+        ],
+        [
+         "25 kV AC",
+         "Overhead line voltage",
+         "Most GB mainline OLE."
+        ],
+        [
+         "750 V DC",
+         "Conductor rail voltage",
+         "Third-rail lines, mainly in southern England."
+        ],
+        [
+         "29 mg",
+         "Network Rail alcohol limit",
+         "Per 100 ml of blood (13 µg per 100 ml of breath). Drink-drive limit in England and Wales: 80 mg."
+        ],
+        [
+         "12 h",
+         "Rest before another shift",
+         "Sentinel rules: no duty within 12 hours of a previous shift on the infrastructure unless risk-assessed."
+        ],
+        [
+         "60 h",
+         "Fatigue trigger",
+         "More than 60 hours in 7 rolling days needs a fatigue assessment and plan."
+        ],
+        [
+         "2 years",
+         "PTS validity",
+         "Recertify within 56 days of expiry, or retake the initial course."
+        ],
+        [
+         "3 × 20 m",
+         "Emergency detonators",
+         "Trained staff place three detonators 20 m apart, normally about 2 km from the obstruction."
+        ],
+        [
+         "0.447",
+         "mph to m/s",
+         "Multiply mph by 0.447. 60 mph covers about one mile per minute."
+        ],
+        [
+         "30 / 40 / 24",
+         "This app's mock test",
+         "30 questions, 40 minutes, pass mark 24 (80%). A practice format, not the official assessment."
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "glossary",
+     "title": "Glossary",
+     "reference": "54 terms",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Term",
+        "Meaning"
+       ],
+       "rows": [
+        [
+         "Access point",
+         "An authorised place to enter or leave the railway."
+        ],
+        [
+         "ATWS",
+         "Automatic Track Warning System. Detects trains and gives warnings at the site."
+        ],
+        [
+         "AWS",
+         "Automatic Warning System. Gives the driver an in-cab warning about the signal ahead."
+        ],
+        [
+         "Axle counter",
+         "Train detection that counts axles into and out of a section."
+        ],
+        [
+         "Ballast",
+         "Stones that hold sleepers in place and drain the track."
+        ],
+        [
+         "Bi-directional line",
+         "A line signalled for trains in either direction."
+        ],
+        [
+         "Cess",
+         "The area beside the track beyond the outermost rail."
+        ],
+        [
+         "CIRAS",
+         "A confidential reporting service for safety concerns."
+        ],
+        [
+         "Close Call",
+         "Network Rail's system for reporting hazards and near misses."
+        ],
+        [
+         "Conductor rail",
+         "The extra rail that supplies DC power to trains (third rail)."
+        ],
+        [
+         "COSS",
+         "Controller of Site Safety. Sets up and manages the safe system of work for a group."
+        ],
+        [
+         "Cutting",
+         "Where the line runs below the surrounding ground."
+        ],
+        [
+         "DCCR",
+         "DC conductor rail. The PTS module for third-rail lines."
+        ],
+        [
+         "Detonator",
+         "A device clipped to the rail that bangs when a train runs over it, warning the driver."
+        ],
+        [
+         "ELR",
+         "Engineer's Line Reference. A code that, with the mileage, identifies a location."
+        ],
+        [
+         "Embankment",
+         "A raised bank of earth carrying the railway."
+        ],
+        [
+         "Engineering Supervisor (ES)",
+         "Manages a worksite within a possession."
+        ],
+        [
+         "Fenced working",
+         "A barrier physically stops people reaching the open line."
+        ],
+        [
+         "Foul of the line",
+         "Close enough that a train could strike you or your equipment."
+        ],
+        [
+         "Four-foot",
+         "The space between the two rails of one track."
+        ],
+        [
+         "GSM-R",
+         "The railway's radio system for drivers and signallers."
+        ],
+        [
+         "IWA",
+         "Individual Working Alone. A separate competence for low-risk work by one person."
+        ],
+        [
+         "Limited clearance",
+         "A place with no position of safety when a train passes."
+        ],
+        [
+         "Line blockage",
+         "A line closed to trains, with protecting signals held at danger."
+        ],
+        [
+         "LOWS",
+         "Lookout Operated Warning System. A lookout triggers warnings given by equipment at the site."
+        ],
+        [
+         "Lookout",
+         "A competent person who watches for trains and warns the group in time."
+        ],
+        [
+         "NRMI",
+         "Network Rail managed infrastructure."
+        ],
+        [
+         "OLE",
+         "Overhead line equipment, usually 25 kV AC."
+        ],
+        [
+         "On-track plant (OTP)",
+         "Machines that work on the track, such as road-rail vehicles."
+        ],
+        [
+         "PICOP",
+         "Person in Charge of the Possession."
+        ],
+        [
+         "Points (S&C)",
+         "Switches and crossings that let trains change tracks. They can move without warning."
+        ],
+        [
+         "Position of safety",
+         "A place far enough from the line to be safe when a train passes."
+        ],
+        [
+         "Possession",
+         "A line closed to normal traffic for engineering work."
+        ],
+        [
+         "Primary Sponsor",
+         "The organisation responsible for you under Sentinel."
+        ],
+        [
+         "PTS",
+         "Personal Track Safety. The basic competence for working on or near the line."
+        ],
+        [
+         "RAIB",
+         "Rail Accident Investigation Branch. Investigates accidents to improve safety."
+        ],
+        [
+         "Red zone",
+         "Working on or near a line open to trains, relying on warnings."
+        ],
+        [
+         "Refuge",
+         "A recess in a tunnel, bridge or wall where you can stand clear of trains."
+        ],
+        [
+         "Running line",
+         "A line used for normal train movements."
+        ],
+        [
+         "Safe system of work",
+         "The planned arrangements that protect people from trains."
+        ],
+        [
+         "Safe work pack",
+         "The planned documents for a job and its safe system of work."
+        ],
+        [
+         "Sentinel",
+         "The scheme recording identity and competences of NRMI workers."
+        ],
+        [
+         "Separated working",
+         "A 2 m gap is kept from the open line, controlled by a site warden."
+        ],
+        [
+         "Siding",
+         "A line for stabling or loading, not through running."
+        ],
+        [
+         "Site warden",
+         "Warns anyone about to leave the safe area towards an open line."
+        ],
+        [
+         "Six-foot",
+         "The space between two adjacent tracks."
+        ],
+        [
+         "SPAD",
+         "Signal passed at danger."
+        ],
+        [
+         "SPT",
+         "Signal post telephone. Connects directly to the signaller."
+        ],
+        [
+         "TCOC",
+         "Track circuit operating clip. Makes a line show as occupied."
+        ],
+        [
+         "Ten-foot",
+         "The wider space between two pairs of running lines."
+        ],
+        [
+         "TOWS",
+         "Train Operated Warning System. Fixed equipment triggered by approaching trains."
+        ],
+        [
+         "TPWS",
+         "Train Protection and Warning System. Can apply a train's brakes automatically."
+        ],
+        [
+         "Worksafe",
+         "Network Rail procedure protecting your right to refuse unsafe work."
+        ],
+        [
+         "Worksite",
+         "A defined area of work inside a possession."
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cases",
+   "title": "RAIB Case Studies",
+   "icon": "flag",
+   "summary": "Lessons from real railway accidents investigated by the Rail Accident Investigation Branch (RAIB).",
+   "topics": [
+    {
+     "id": "case-0",
+     "title": "Margam East Junction (2019)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Two track workers were struck and killed by a train while working on a line open to traffic without formally appointed lookouts. A third narrowly escaped."
+      },
+      {
+       "type": "tip",
+       "text": "Never fall back on informal or less safe methods. Planning must not allow a downgrade when a line blockage is refused, and managers must see what happens on site."
+      }
+     ]
+    },
+    {
+     "id": "case-1",
+     "title": "Surbiton (2021)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A track worker was struck during a track inspection that relied on unassisted lookout working."
+      },
+      {
+       "type": "tip",
+       "text": "Lookout warning is the least safe system. The accident sped up Network Rail's move away from lookout working."
+      }
+     ]
+    },
+    {
+     "id": "case-2",
+     "title": "Stoats Nest Junction (2018)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A worker was struck shortly after placing possession protection, having moved outside the protected area. The labour supplier had not checked the worker's hours."
+      },
+      {
+       "type": "tip",
+       "text": "Placing or removing protection is high risk. Stay within protected limits, and manage hours for everyone, including contingent workers."
+      }
+     ]
+    },
+    {
+     "id": "case-3",
+     "title": "Maesyfelin bridge, near Pontyclun (2016)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Six workers nearly collided with a 75 mph train on a bridge with no position of safety. The COSS had used an unauthorised system with radio warnings; a warning was not received. Three jumped onto the parapet."
+      },
+      {
+       "type": "tip",
+       "text": "Never use radios for train warnings or improvise a safe system of work. Challenge plans that do not suit the site."
+      }
+     ]
+    },
+    {
+     "id": "case-4",
+     "title": "Newark North Gate (2014)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A lookout moved into the path of a train and was killed. The COSS had not monitored the team."
+      },
+      {
+       "type": "tip",
+       "text": "Lookouts are at risk too and must stay in a position of safety. Leaders must supervise actively."
+      }
+     ]
+    },
+    {
+     "id": "case-5",
+     "title": "Ruscombe Junction (2007)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A welder was struck by a train. Peer pressure, leadership failings and reluctance to interrupt work were factors."
+      },
+      {
+       "type": "tip",
+       "text": "Never let time pressure or the wish to finish stop you getting clear or speaking up."
+      }
+     ]
+    },
+    {
+     "id": "case-6",
+     "title": "Dutton Viaduct (2017)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A structures examination team crossed a viaduct at track level and narrowly avoided a 125 mph train."
+      },
+      {
+       "type": "tip",
+       "text": "Structures with limited clearance must be planned so nobody is on them when trains can run."
+      }
+     ]
+    },
+    {
+     "id": "case-7",
+     "title": "South Hampstead (2018)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Workers went onto the wrong lines, partly because track layout signage was missing, and had about two seconds' warning."
+      },
+      {
+       "type": "tip",
+       "text": "Check access signs and line names against your briefing every time."
+      }
+     ]
+    },
+    {
+     "id": "case-8",
+     "title": "Egmanton (2017)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A group had to jump clear of a train with under two seconds' warning after confusion about the lookout's role. Contract staff felt unable to challenge."
+      },
+      {
+       "type": "tip",
+       "text": "Everyone, whatever their contract, must feel able to challenge unsafe work."
+      }
+     ]
+    },
+    {
+     "id": "case-9",
+     "title": "Morton Junction (2024)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "A COSS unknowingly used a safe work pack for a different location and had not fully read the documents for a familiar task."
+      },
+      {
+       "type": "tip",
+       "text": "Familiar jobs still need the plan checked against the actual site."
+      }
+     ]
+    },
+    {
+     "id": "case-10",
+     "title": "Severn Tunnel Junction (1985)",
+     "reference": "RAIB case study",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Four track workers clearing snow were killed. There was no clearly defined leader or lookout arrangement."
+      },
+      {
+       "type": "tip",
+       "text": "This led to the role that became today's COSS: one clear person in charge of the group's safety."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

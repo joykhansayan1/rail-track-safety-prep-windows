@@ -1,0 +1,22 @@
+{
+  "id": "./",
+  "name": "Rail Track Safety Prep PTS",
+  "short_name": "Rail PTS Prep",
+  "description": "Railway Personal Track Safety (PTS) exam prep: 2,000+ original questions across 15 topics, timed mock assessments, a study guide with RAIB case studies, and flashcards. Works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#F4F6F9",
+  "theme_color": "#0F2E52",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" }
+  ]
+}
